@@ -3,6 +3,7 @@ import './App.css';
 import Title from './components/Title';
 import LightSwitch from './components/LightSwitch';
 import UserBoard from "./components/UserBoard";
+import Clock from "./components/Clock"
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <LightSwitch />
         <h1>User Board</h1>
         <UserBoard />
+        <h1>Clock</h1>
+        <Clock />
       </main>
     </div>
   );
