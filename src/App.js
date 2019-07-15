@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Title from './components/Title'
-import LightSwitch from './components/LightSwitch'
-import User from './components/User'
+import Title from './components/Title';
+import LightSwitch from './components/LightSwitch';
+import UserBoard from "./components/UserBoard";
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <main>
         <Title content="Some Simple Title" />
         <LightSwitch />
-        <User name="Jair" />
-        <User name="Olavo" />
+        <h1>User Board</h1>
+        <UserBoard />
       </main>
     </div>
   );
